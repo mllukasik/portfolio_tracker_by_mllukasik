@@ -1,0 +1,18 @@
+{
+  "ticker": "ROD1035",
+  "capitalization": true,
+  "couponFrequency": null,
+  "term": "P12Y",
+  "periods": [
+    {
+      "time": "P1Y",
+      "rateType": "CONSTANT",
+      "rate": 0.075
+    },
+    {
+      "time": "P11Y",
+      "rateType": "CPI",
+      "margin": 0.02
+    }
+  ]
+}
