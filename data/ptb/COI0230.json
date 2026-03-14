@@ -4,10 +4,17 @@
   "couponFrequency": "P1Y",
   "term": "P4Y",
   "rateType": "CPI",
-  "margin": 0.015,
   "periods": [
-    { "time": "P1Y", "rate": 0.05 },
-    { "time": "P3Y", "rate": 0.05 }
+    {
+      "time": "P1Y",
+      "rateType": "CONSTANT",
+      "rate": 0.05
+    },
+    {
+      "time": "P3Y",
+      "rateType": "CPI",
+      "margin": 0.015
+    }
   ]
 }
 
