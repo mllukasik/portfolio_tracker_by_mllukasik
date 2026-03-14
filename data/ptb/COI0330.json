@@ -1,0 +1,18 @@
+{
+  "ticker": "COI0330",
+  "capitalization": false,
+  "couponFrequency": "P1Y",
+  "term": "P4Y",
+  "periods": [
+    {
+      "time": "P1Y",
+      "rateType": "CONSTANT",
+      "rate": 0.05
+    },
+    {
+      "time": "P3Y",
+      "rateType": "CPI",
+      "margin": 0.015
+    }
+  ]
+}
