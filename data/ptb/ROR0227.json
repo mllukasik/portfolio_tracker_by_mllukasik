@@ -1,0 +1,18 @@
+{
+  "ticker": "ROR0227",
+  "capitalization": false,
+  "couponFrequency": "P1M",
+  "term": "P1Y",
+  "periods": [
+    {
+      "time": "P1M",
+      "rateType": "CONSTANT",
+      "rate": 0.0425
+    },
+    {
+      "time": "P11M",
+      "rateType": "NBP",
+      "margin": 0.0
+    }
+  ]
+}

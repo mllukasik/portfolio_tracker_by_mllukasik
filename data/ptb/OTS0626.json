@@ -1,0 +1,13 @@
+{
+  "ticker": "OTS0626",
+  "capitalization": false,
+  "couponFrequency": null,
+  "term": "P3M",
+  "periods": [
+    {
+      "time": "P3M",
+      "rateType": "CONSTANT",
+      "rate": 0.025
+    }
+  ]
+}

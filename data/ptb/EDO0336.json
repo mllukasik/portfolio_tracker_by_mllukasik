@@ -1,0 +1,18 @@
+{
+  "ticker": "EDO0336",
+  "capitalization": true,
+  "couponFrequency": "P1Y",
+  "term": "P10Y",
+  "periods": [
+    {
+      "time": "P1Y",
+      "rateType": "CONSTANT",
+      "rate": 0.056
+    },
+    {
+      "time": "P9Y",
+      "rateType": "CPI",
+      "margin": 0.02
+    }
+  ]
+}
