@@ -10,9 +10,20 @@
       "rate": 0.0425
     },
     {
-      "time": "P11M",
-      "rateType": "NBP",
-      "margin": 0.0
+      "time": "P1M",
+      "rateType": "CONSTANT",
+      "rate": 0.04
+    },
+    {
+      "time": "P1M",
+      "rateType": "CONSTANT",
+      "rate": 0.0375
+    },
+    {
+      "time": "P9M",
+      "rateType": "CONSTANT",
+      "rate": 0.0375
     }
   ]
 }
+
