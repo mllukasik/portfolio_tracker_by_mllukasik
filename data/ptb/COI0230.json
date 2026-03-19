@@ -1,17 +1,17 @@
 {
-  "ticker": "ROR0227",
+  "ticker": "COI0230",
   "emissionDate": "2026-02-01",
   "capitalization": false,
-  "periodLength": "P1M",
-  "term": "P1Y",
+  "periodLength": "P1Y",
+  "term": "P4Y",
   "periods": [
     {
       "rateType": "CONSTANT",
-      "rate": 0.0425
+      "rate": 0.05
     },
     {
-      "rateType": "NBP",
-      "margin": 0
+      "rateType": "CPI",
+      "margin": 0.015
     }
   ]
 }

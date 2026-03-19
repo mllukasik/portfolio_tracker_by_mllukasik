@@ -1,0 +1,13 @@
+{
+  "ticker": "TOS0329",
+  "emissionDate": "2026-03-01",
+  "capitalization": true,
+  "periodLength": "P1Y",
+  "term": "P3Y",
+  "periods": [
+    {
+      "rateType": "CONSTANT",
+      "rate": 0.0465
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "COI0330",
+  "emissionDate": "2026-03-01",
+  "capitalization": false,
+  "periodLength": "P1Y",
+  "term": "P4Y",
+  "periods": [
+    {
+      "rateType": "CONSTANT",
+      "rate": 0.05
+    },
+    {
+      "rateType": "CPI",
+      "margin": 0.015
+    }
+  ]
+}

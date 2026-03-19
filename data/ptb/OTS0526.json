@@ -1,0 +1,13 @@
+{
+  "ticker": "OTS0526",
+  "emissionDate": "2026-02-01",
+  "capitalization": false,
+  "periodLength": "P3M",
+  "term": "P3M",
+  "periods": [
+    {
+      "rateType": "CONSTANT",
+      "rate": 0.025
+    }
+  ]
+}
