@@ -1,27 +1,11 @@
 {
   "ticker": "ROR0227",
+  "emissionDate": "2026-02-01",
   "capitalization": false,
-  "couponFrequency": "P1M",
-  "rateType": "NBP",
-  "margin": 0,
+  "periodLength": "P1M",
   "term": "P1Y",
   "periods": [
-    {
-      "time": "P1M",
-      "rate": 0.0425
-    },
-    {
-      "time": "P1M",
-      "rate": 0.04
-    },
-    {
-      "time": "P1M",
-      "rate": 0.0375
-    },
-    {
-      "time": "P9M",
-      "rate": 0.0375
-    }
+    { "rateType": "CONSTANT", "rate": 0.0425 },
+    { "rateType": "NBP", "margin": 0 }
   ]
 }
-
